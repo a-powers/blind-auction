@@ -1,13 +1,11 @@
 from replit import clear
-#HINT: You can call clear() to clear the output in the console.
 from art import logo
-
 print(logo)
 
 bid_dict = {}
 bidding_finished = False
 
-def final_bidder(bid_record = bid_dict):
+def final_bidder(bid_record):
     highest_bid = 0
     winner = ""
     for bids in bid_record:
