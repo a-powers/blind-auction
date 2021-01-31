@@ -15,6 +15,8 @@ def all_bids(new_name, new_bids):
 if more_bidders == "y":
     
 
+    
+
 
 
 all_bids(name, bid)
